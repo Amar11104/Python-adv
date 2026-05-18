@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+
+df = pd.read_csv("file1.csv")
+
+plt.figure(figsize=(10,6))
+
+plt.scatter(df['Mean years of schooling - 2021'],df['Average IQ'], color='purple',alpha=0.7)
+
+plt.title("Sccater Plot")
+
+plt.xlabel('Mean years of schooling - 2021')
+plt.ylabel('Average IQ')
+
+plt.grid(True,linestyle='--',alpha=0.7)
+plt.show()
