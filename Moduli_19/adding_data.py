@@ -31,3 +31,4 @@ if submit_button:
         books_df = pd.concat([pd.DataFrame(new_data,index=[0]),books_df], ignore_index=True)
         books_df.to_csv('file1.csv',index=False)
         st.sidebar.success("New Book Added successfully")
+
