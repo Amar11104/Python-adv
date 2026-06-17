@@ -1,0 +1,9 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "adress": {
+        "street": "123 Min st",
+        "city": "Prishtina",
+        "postal_code": 10000
+    }
+}
